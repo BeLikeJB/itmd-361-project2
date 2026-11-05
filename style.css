@@ -1,0 +1,57 @@
+nav ul {
+  list-style: none;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+/* Style 1: Dark  themed body background */
+body {
+  font-family: 'Courier New', Courier, monospace;
+  background-color: #0d1117;
+  color: #c9d1d9;
+  margin: 0;
+  padding: 0;
+}
+
+/* Style 2: layout container using relative percentage width */
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: #161b22;
+  border: 1px solid #30363d;
+}
+
+/* Style 3: Heading styling with cyan color */
+h1, h2 {
+  font-size: 2.2rem;
+  color: #58a6ff;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+/* Style 4: Image styling and border */
+img {
+  width: 100%;
+  max-width: 450px;
+  height: auto;
+  border-radius: 4px;
+  border: 2px solid #58a6ff;
+}
+
+/* Style 5: Footer styling with fixed top margin and center alignment */
+footer {
+  background-color: #010409;
+  color: #8b949e;
+  text-align: center;
+  padding: 1.5rem;
+  margin-top: 3rem;
+  border-top: 1px solid #30363d;
+}
